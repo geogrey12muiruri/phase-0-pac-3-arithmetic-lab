@@ -14,25 +14,15 @@ function divide(a,b) {
     return a/b;
 
 }
-let a;
-function increment(a) {
-    return a+1;
+function increment(n) {
+    return n + 1;
 }
-let b = 726;
-function decrement(a) {
-    return a-b;
+function decrement(n) {
+    return n - 1;
 }
 function makeInt(n) {
-    return parseInt(a, 10);
+    return parseInt(n, 10);
 }
 function preserveDecimal(n) {
-    return parseFloat(n, 10);
+    return parseFloat(n);
 }
-n++;
-
-n--;
-
-add(a, b);
-subtract(a,b);
-multiply(a, b);
-divide(a, b);
